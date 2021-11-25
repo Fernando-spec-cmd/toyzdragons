@@ -1,0 +1,44 @@
+$sizeTitulo: 240px;
+$fuente: 'Road Rage', cursive;
+$colorLetra: white;
+$hover: orange;
+$letrasFigura: black;
+
+
+h1{
+    font-size: $sizeTitulo/2;
+    font-family: $fuente;
+    color: $colorLetra;
+}
+nav{
+	margin-left: 30px;
+	font-family: $fuente;
+	font-size: 30px;
+    margin-top: 40px;
+}
+nav{
+    a:hover{
+        color: $hover;
+    }
+}
+ul{
+    a{
+        color: $colorLetra;
+    }
+}
+h4{
+    a{
+        font-family: $fuente;
+        color: $letrasFigura;
+    }
+}
+h4{
+    a:hover{
+        color: $hover;
+        text-decoration: none;
+    }
+}
+h2{
+    font-family: $fuente;
+    color: $letrasFigura;
+}
